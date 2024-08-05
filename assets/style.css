@@ -1,0 +1,63 @@
+body {
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: 100% 100%;
+    font-size: 1.1rem;
+}
+
+.main-header ul li,
+.main-header button {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.main-header ul li a {
+    border: 1px solid #333;
+    border-radius: .25rem;
+    margin-right: 10px;
+}
+
+#tabela_bg {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: .25rem;
+    padding: 20px 0px;
+}
+
+table.dataTable thead {
+    background: #e9ecef;
+}
+
+table.dataTable tbody td {
+    vertical-align: middle;
+    font-size: 1.2rem;
+    ;
+    color: #333;
+}
+
+#form_bg {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: .25rem;
+    padding: 20px;
+}
+
+.footer {
+    margin-top:10px;
+    text-align: center;
+}
+
+.jnl {
+    padding: 0;
+    background: url('data:image/svg+xml,<%3Fxml version="1.0" encoding="utf-8"%3F><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="52px" viewBox="0 0 100 52" enable-background="new 0 0 100 52" xml:space="preserve"><g id="logo"><g><g><g><defs><rect id="SVGID_1_" x="10.856" y="12.155" width="78.287" height="23.436"/></defs><clipPath id="SVGID_2_"><use xlink:href="%23SVGID_1_" overflow="visible"/></clipPath><polygon clip-path="url(%23SVGID_2_)" fill="%23A6EC4A" points="85.234,28.557 85.234,31.668 63.002,31.668 63.002,12.548 59.439,12.548 59.439,30.338 40.746,12.548 37.182,12.548 37.182,31.668 14.951,31.668 14.951,28.557 11.413,28.557 11.413,31.668 14.951,35.231 40.746,35.231 40.746,31.668 40.746,17.441 59.439,35.231 85.234,35.231 88.772,31.668 88.772,28.557 "/></g></g></g></g></svg>') no-repeat;
+    background-size: cover;
+    height: 20px;
+    width: 45px;
+    display: inline-block;
+    vertical-align: middle;
+    opacity: 0.5;
+    filter: invert(100%) saturate(0%);
+}
+.jnl:hover {
+    opacity: 1;
+}
